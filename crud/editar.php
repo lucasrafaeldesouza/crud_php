@@ -3,6 +3,8 @@
 include_once 'php_action/db_connect.php';
 //Header
 include_once 'includes/header.php';
+//Nav
+include_once 'includes/nav.php';
 if(isset($_GET['id'])):
     $id = mysqli_escape_string($connect, $_GET['id']);
 
@@ -27,6 +29,16 @@ endif;
                 <label for="sobrenome">Sobrenome</label>
             </div>
 
+            <div class="input-field col s6">
+                <input type="text" name="numero" id="numero" value="<?php echo $dados['numero'] ?>">
+                <label for="numero">Numero</label>
+            </div>
+
+            <div class="input-field col s6">
+                <input type="text" name="cargo" id="cargo" value="<?php echo $dados['cargo'] ?>">
+                <label for="cargo">Cargo</label>
+            </div>
+
             <div class="input-field col s10">
                 <input type="text" name="email" id="email" value="<?php echo $dados['email'] ?>">
                 <label for="email">E-mail</label>
@@ -37,8 +49,8 @@ endif;
                 <label for="idade">Idade</label>
             </div>
 
-            <button type="index.php" name="btn-editar" class="btn">Atualizar</button>
-            <a href="index.php" class="btn green">Lista de clientes</a>
+            <button type="clientes.php" name="btn-editar" class="btn">Atualizar</button>
+            <a href="clientes.php" class="btn green">Lista de clientes</a>
         </form>
 
     </div>
