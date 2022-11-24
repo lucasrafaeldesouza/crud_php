@@ -12,7 +12,7 @@
 
   <style>
     .striped{
-        background-color: #ceffad;
+        background-color: white;
         color: black;
         font-size: 19px;
         text-align: center;

@@ -55,7 +55,7 @@ include_once 'includes/nav.php';
                 <label for="idade">Idade</label>
             </div>
 
-            <button type="clientes.php" name="btn-cadastrar" class="btn">Cadastrar teste</button>
+            <button type="clientes.php" name="btn-cadastrar" class="btn">Cadastrar</button>
             <a href="clientes.php" class="btn green">Lista de clientes</a>
         </form>
 
