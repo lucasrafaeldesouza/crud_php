@@ -118,6 +118,8 @@ include_once 'includes/nav.php';
 
   <h1>Soluções</h1>
 
+  
+
   <div class="container">
         <!-- Primeiro Card -->
         <div class="card">

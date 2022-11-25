@@ -9,9 +9,43 @@ include_once 'includes/message.php';
 include_once 'includes/nav.php';
 ?>
 
+<style>
+  h1{
+    font-family: 'Inconsolata', monospace;
+    font-size: 45px;
+    text-align: center;
+  }
+
+</style>
+
+<script>
+    var instance = M.Carousel.init({
+      fullWidth: true,
+      indicators: true
+    });
+  
+    // Or with jQuery
+  
+    $('.carousel.carousel-slider').carousel({
+      fullWidth: true,
+      indicators: true
+    });   
+</script>
+
+  <div class="carousel carousel-slider center">
+    <div class="carousel-item" href="">
+      <h1>Soluções <b>Digitais</b> na Medida Certa</h1>
+      <img src="https://forgesolucoes.com.br/img/banner6.jpg" alt="">
+    </div>
+    <div class="carousel-item" href="">
+      <h1>Gestão <b>Eficiente</b> Gerenciameno de processos comerciais</h1>
+      <img src="https://forgesolucoes.com.br/img/banner.jpg" alt="">
+    </div>  
+  </div>
+
 <div class="row">
     <div class="col s12 m6 push-m3">
-        <h4 class="light">Clientes</h4>
+        <h1>Clientes</h1>
         <table class="striped">
             <thead>
                 <tr>
