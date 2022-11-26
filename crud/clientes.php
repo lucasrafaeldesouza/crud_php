@@ -15,7 +15,6 @@ include_once 'includes/nav.php';
     font-size: 45px;
     text-align: center;
   }
-
 </style>
 
 <script>

@@ -5,7 +5,7 @@
         <li><a href="home.php">Home</a></li>
         <li><a href="clientes.php">Clientes</a></li>
         <li><a href="sobre.php">Sobre</a></li>
-        <li><a href="contato.php">Contato</a></li>
+        <li><a href="servicos.php">Serviços</a></li>
       </ul>
     </div>
   </nav>

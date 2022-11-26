@@ -28,6 +28,10 @@ include_once 'includes/nav.php';
   display: table;
 }
 
+.container{
+    position: relative;
+    top: 30px;
+}
 
 </style>
 
@@ -58,16 +62,9 @@ include_once 'includes/nav.php';
   
   <h1>Serviços</h1>
 
-  <!-- <div class="row">
-  <div class="coluna">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <div class="coluna">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <div class="coluna">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div></div> -->
+<div class="container">
+    <h6><b>Experiencia em negócio e tecnologia, com desenvolvimento em linguagens atuais de programação. Customizando seu ERP e desenvolvendo soluções aderentes. <br>Nossas soluções digitais vão trazer mais gestão e automatização aos processos de sua empresa. Disponibilizando informação e controle aos setores. <br>Equipe qualificada e prestativa, sempre de prontidão para auxiliar. Seja tirando dúvidas ou sugerindo soluções, estamos à disposição. <br>Nossa equipe possui profissionais qualificados para identificar as necessidades de software aderentes ao seu processo. Melhorando procedimentos e sugerindo soluções. <br>Nossas soluções digitais vão trazer mais gestão e automatização aos processos de sua empresa. Disponibilizando informação e controle aos setores.</b></h6>
+</div>
 
   <div class="row" style="display: table">
   <div class="coluna">
@@ -79,6 +76,9 @@ include_once 'includes/nav.php';
   <div class="coluna">
     <img src="https://cl9.com.br/wp-content/uploads/2020/03/quais-as-diferencas-entre-as-versoes-do-sql-server-p10dnfny4wpoh5oxcvtewb4ezm48eemcycsg2jvhl4.jpg" style="width:200px" alt="descrição da imagem">
   </div></div>
+  
+
+  
 
 <?php
 //Footer
